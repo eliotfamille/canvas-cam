@@ -1,4 +1,3 @@
-from app.hand_draw_app import HandDrawApp
+from Kivy.app import HandDrawApp
 
-if __name__ == "__main__":
-    HandDrawApp().run()
+HandDrawApp().run()
